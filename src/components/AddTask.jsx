@@ -12,6 +12,7 @@ const AddTask = ({handleAdd}) => {
     handleAdd(task)
     setTask("")
   }
+
   return (
     <div className='container addtask'>
       <input type="text" value={task} placeholder='Add task here' autoFocus onChange={(e)=> {
